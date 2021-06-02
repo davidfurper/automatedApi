@@ -1,5 +1,5 @@
-# automatedApi
-Pruebas automatizadas de API con Mocha
+# AutomatedApi
+_Pruebas automatizadas de API con Mocha
 
 
 Configuracion y run JsonServer
