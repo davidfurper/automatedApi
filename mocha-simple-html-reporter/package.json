@@ -1,0 +1,74 @@
+{
+  "_from": "mocha-simple-html-reporter",
+  "_id": "mocha-simple-html-reporter@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-adaJlWWDoAT1OMjsjo6uOOOaMwmGf8ZQEXVoUdlD34Xjgz4M50FW7fe9ksl6UFLoisSB9Ai49LzRh6LuId1+cA==",
+  "_location": "/mocha-simple-html-reporter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mocha-simple-html-reporter",
+    "name": "mocha-simple-html-reporter",
+    "escapedName": "mocha-simple-html-reporter",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/mocha-simple-html-reporter/-/mocha-simple-html-reporter-2.0.0.tgz",
+  "_shasum": "413f2fbaaf6e595d2206a12657a860f9e4e527d7",
+  "_spec": "mocha-simple-html-reporter",
+  "_where": "C:\\Users\\Imagemaker\\IdeaProjects\\AutomatedAPI\\node_module",
+  "author": {
+    "name": "Andrew Abramov",
+    "email": "mail@blond.im",
+    "url": "github.com/blond"
+  },
+  "bugs": {
+    "url": "https://github.com/blond/mocha-simple-html-reporter/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "pretty-ms": "7.0.1"
+  },
+  "deprecated": false,
+  "description": "HTML reporter for Mocha",
+  "devDependencies": {
+    "deasync": "^0.1.7",
+    "eslint": "^4.9.0",
+    "eslint-config-pedant": "^1.0.0",
+    "mocha": "^8.3.0",
+    "should": "^13.1.2",
+    "unexpected": "^10.36.0"
+  },
+  "engines": {
+    "node": ">= 10.12.0"
+  },
+  "files": [
+    "lib/**",
+    "index.js"
+  ],
+  "homepage": "https://github.com/blond/mocha-simple-html-reporter#readme",
+  "keywords": [
+    "mocha",
+    "reporter",
+    "report",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "mocha-simple-html-reporter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blond/mocha-simple-html-reporter.git"
+  },
+  "scripts": {
+    "example": "UNEXPECTED_FULL_TRACE=true mocha --reporter=$PWD --config examples/.mocharc.js",
+    "test": "eslint ."
+  },
+  "version": "2.0.0"
+}

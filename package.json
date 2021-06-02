@@ -4,6 +4,11 @@
   "description": "Pruebas automatizadas api mocha",
   "main": "index.js",
 
+  "keywords": [
+    "mocha",
+    "reporter",
+    "html"
+  ],
   "scripts": {
     "test": "mocha"
   },
@@ -20,6 +25,7 @@
   "devDependencies": {
     "chai": "*",
     "chai-http": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "mocha-simple-html-reporter": "^2.0.0"
   }
 }
